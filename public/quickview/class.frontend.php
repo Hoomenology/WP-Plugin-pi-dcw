@@ -28,7 +28,8 @@ class pisol_quick_view_frontend{
   		$this->pi_dcw_quick_view_text_color = get_option('pi_dcw_quick_view_text_color', '#ffffff');
 
         add_action( 'wp_enqueue_scripts', array($this,'pisol_load_assets'));
-		add_action( 'woocommerce_after_shop_loop_item', array($this,'pisol_add_button') );
+        // add_action( 'woocommerce_after_shop_loop_item', array($this,'pisol_add_button') );
+        add_filter( 'woocommerce_loop_add_to_cart_link', array( $this, 'pisol_add_button2' ), 15 );
 		add_action( 'wp_footer', array($this, 'pisol_remodel_model'));
 		add_action( 'wp_ajax_pisol_get_product', array($this,'pisol_get_product') );
         add_action( 'wp_ajax_nopriv_pisol_get_product', array($this,'pisol_get_product') );
@@ -134,7 +135,13 @@ class pisol_quick_view_frontend{
 		 
 	}
 
+    public function pisol_add_button2($add_to_cart_url){
 
+		global $post;
+        return '<a data-product-id="'.$post->ID.'"class="quick_view button pisol_quick_view_button" >
+        <span>'.$this->pi_dcw_quick_view_text.'</span></a>' . $add_to_cart_url;
+    }
+    
 	public function pisol_add_button(){
 
 		global $post;
