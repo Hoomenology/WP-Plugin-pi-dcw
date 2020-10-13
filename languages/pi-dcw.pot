@@ -1,0 +1,297 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Language: \n"
+"POT-Creation-Date: 2020-07-08 04:39+0000\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: pi-dcw.php:51
+msgid ""
+"You have pro version of add to cart redirect active please deactivate the "
+"pro version first and then activate free version"
+msgstr ""
+
+#: pi-dcw.php:64
+msgid ""
+"Please Install and Activate WooCommerce plugin, without that this plugin "
+"cant work"
+msgstr ""
+
+#: pi-dcw.php:115
+msgid "Buy PRO Version"
+msgstr ""
+
+#: admin/class-pi-dcw-add-to-cart.php:37
+msgid "Add to Cart button"
+msgstr ""
+
+#: admin/class-pi-dcw-add-to-cart.php:38
+msgid "Do you want to change the button text of add to cart button"
+msgstr ""
+
+#: admin/class-pi-dcw-add-to-cart.php:38
+msgid "Change Add to cart button text"
+msgstr ""
+
+#: admin/class-pi-dcw-add-to-cart.php:39
+msgid "This text will be shown inside add to cart button"
+msgstr ""
+
+#: admin/class-pi-dcw-add-to-cart.php:39
+msgid "Add to cart button text"
+msgstr ""
+
+#: admin/class-pi-dcw-buy-now.php:35
+msgid "On product page"
+msgstr ""
+
+#: admin/class-pi-dcw-buy-now.php:37
+msgid "Buy now button on single product page"
+msgstr ""
+
+#: admin/class-pi-dcw-buy-now.php:37
+msgid "Buy now button on product page"
+msgstr ""
+
+#: admin/class-pi-dcw-buy-now.php:39 admin/class-pi-dcw-buy-now.php:50
+msgid "Buy now button label"
+msgstr ""
+
+#: admin/class-pi-dcw-buy-now.php:39 admin/class-pi-dcw-buy-now.php:50
+msgid "Label of the buy now button"
+msgstr ""
+
+#: admin/class-pi-dcw-buy-now.php:41 admin/class-pi-dcw-buy-now.php:52
+#: admin/class-pi-dcw-buy-now.php:52
+msgid "Position of the button"
+msgstr ""
+
+#: admin/class-pi-dcw-buy-now.php:41
+msgid "Before add to cart form"
+msgstr ""
+
+#: admin/class-pi-dcw-buy-now.php:41
+msgid "After add to cart form"
+msgstr ""
+
+#: admin/class-pi-dcw-buy-now.php:41 admin/class-pi-dcw-buy-now.php:52
+msgid "After add to cart button"
+msgstr ""
+
+#: admin/class-pi-dcw-buy-now.php:41 admin/class-pi-dcw-buy-now.php:52
+msgid "Before add to cart button"
+msgstr ""
+
+#: admin/class-pi-dcw-buy-now.php:43 admin/class-pi-dcw-buy-now.php:54
+msgid "Redirect to cart or checkout page"
+msgstr ""
+
+#: admin/class-pi-dcw-buy-now.php:43 admin/class-pi-dcw-buy-now.php:54
+msgid "Redirect to cart/checkout page"
+msgstr ""
+
+#: admin/class-pi-dcw-buy-now.php:43 admin/class-pi-dcw-buy-now.php:54
+msgid "Checkout"
+msgstr ""
+
+#: admin/class-pi-dcw-buy-now.php:43 admin/class-pi-dcw-buy-now.php:54
+msgid "Cart"
+msgstr ""
+
+#: admin/class-pi-dcw-buy-now.php:46
+msgid "On product archive page"
+msgstr ""
+
+#: admin/class-pi-dcw-buy-now.php:48
+msgid "Buy now button on Product archive page like loop , category"
+msgstr ""
+
+#: admin/class-pi-dcw-buy-now.php:48
+msgid "Buy now button on product archive page"
+msgstr ""
+
+#: admin/class-pi-dcw-buy-now.php:56
+msgid ""
+"this will show the buy now button for variable product, and this buy now "
+"button will add the first variation of that product to cart <strong "
+"class=\"text-primary\">You must have set Default value for all the required "
+"variation attributes, else the buy now button for that product may not "
+"work</strong>"
+msgstr ""
+
+#: admin/class-pi-dcw-buy-now.php:56
+msgid "Show buy now option on variable product, on category / Shop page"
+msgstr ""
+
+#: admin/class-pi-dcw-buy-now.php:58
+msgid "Buy now Button design"
+msgstr ""
+
+#: admin/class-pi-dcw-buy-now.php:60
+msgid "Background color of Buy now button"
+msgstr ""
+
+#: admin/class-pi-dcw-buy-now.php:60
+msgid "Background color"
+msgstr ""
+
+#: admin/class-pi-dcw-buy-now.php:62
+msgid "Text color of Buy now button"
+msgstr ""
+
+#: admin/class-pi-dcw-buy-now.php:62
+msgid "Text color"
+msgstr ""
+
+#: admin/class-pi-dcw-checkout.php:66
+msgid "Remove order comment"
+msgstr ""
+
+#: admin/class-pi-dcw-checkout.php:67
+msgid "Remove coupon field from checkout page"
+msgstr ""
+
+#: admin/class-pi-dcw-checkout.php:68
+msgid ""
+"Remove all the option of shipping field \"Ship to a different address?\""
+msgstr ""
+
+#: admin/class-pi-dcw-checkout.php:69
+msgid "Link product name in checkout page"
+msgstr ""
+
+#: admin/class-pi-dcw-checkout.php:70
+msgid "Remove billing fields"
+msgstr ""
+
+#: admin/class-pi-dcw-checkout.php:71
+msgid "Remove shipping fields"
+msgstr ""
+
+#: admin/class-pi-dcw-checkout.php:80 admin/class-pi-dcw-option.php:69
+#: admin/class-pi-dcw-woo.php:115
+msgid "Select page"
+msgstr ""
+
+#: admin/class-pi-dcw-menu.php:21 admin/class-pi-dcw-menu.php:22
+msgid "Direct Checkout"
+msgstr ""
+
+#: admin/class-pi-dcw-option.php:43
+msgid ""
+"Disable car page, so all the cart page will be redirected to checkout page"
+msgstr ""
+
+#: admin/class-pi-dcw-option.php:43
+msgid "Disable cart page"
+msgstr ""
+
+#: admin/class-pi-dcw-option.php:45
+msgid ""
+"Enable single page checkout, so checkout page will show the cart as well"
+msgstr ""
+
+#: admin/class-pi-dcw-option.php:45
+msgid "Enable single page checkout"
+msgstr ""
+
+#: admin/class-pi-dcw-option.php:49
+msgid ""
+"Once enabled, after clicking add to cart button customer will be directly "
+"redirected to Checkout page or the page selected by you in below setting"
+msgstr ""
+
+#: admin/class-pi-dcw-option.php:49
+msgid "Enable redirect on add to cart"
+msgstr ""
+
+#: admin/class-pi-dcw-option.php:51
+msgid ""
+"Redirect to custom url instead of page, so using this you can redirect to "
+"category page, tag page or post, or any third website url"
+msgstr ""
+
+#: admin/class-pi-dcw-option.php:51 admin/class-pi-dcw-option.php:55
+msgid "Redirect to custom url"
+msgstr ""
+
+#: admin/class-pi-dcw-option.php:53
+msgid ""
+"If you have enabled the first option \"Enable redirect\" and you don't "
+"select any page in here then customer will be redirected to checkout page "
+"after doing add to cart, if you want to redirect to some other page then "
+"select here"
+msgstr ""
+
+#: admin/class-pi-dcw-option.php:55
+msgid ""
+"Redirect to this any custom url of your website e.g.: http://yourwebsite.com"
+msgstr ""
+
+#: admin/class-pi-dcw-option.php:57
+msgid ""
+"WooCommerce shows a continue shopping button after a product is added to "
+"cart, with this option you can disable that link so user remain on checkout "
+"page"
+msgstr ""
+
+#: admin/class-pi-dcw-option.php:57
+msgid "Disable continue shopping button"
+msgstr ""
+
+#: admin/class-pi-dcw-option.php:59
+msgid ""
+"enter domain name where you will redirect them after add to cart, if domain "
+"name is not in this list then it wont redirect to that external domain, make "
+"sure to enter one domain per line without http or https<br>E.g:<br> "
+"piwebsolution.com<br>google.com<br>yahoo.com"
+msgstr ""
+
+#: admin/class-pi-dcw-option.php:59
+msgid "External Safe domain list where you want to redirect"
+msgstr ""
+
+#: admin/class-pi-dcw-woo.php:60
+msgid "Exclude this product from any redirect"
+msgstr ""
+
+#: admin/class-pi-dcw-woo.php:64
+msgid "Overwrite global redirect setting"
+msgstr ""
+
+#: public/quickview/class-pi-dcw-quickview.php:35
+msgid "Enable Quick View button"
+msgstr ""
+
+#: public/quickview/class-pi-dcw-quickview.php:51
+msgid "Enable light box"
+msgstr ""
+
+#. Name of the plugin
+msgid ""
+"Direct checkout, WooCommerce Single page checkout , WooCommerce One page "
+"checkout"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"WooCommerce single page checkout, lets you show cart and checkout option on "
+"single page, that is one page checkout for WooCommerce, along with it you "
+"can redirect user directly to checkout as they click add to cart"
+msgstr ""
+
+#. URI of the plugin
+msgid ""
+"https://www.piwebsolution.com/product/add-to-cart-direct-checkout-for-"
+"woocommerce-pro/"
+msgstr ""
+
+#. Author of the plugin
+msgid "PI Websolution"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.piwebsolution.com/"
+msgstr ""
