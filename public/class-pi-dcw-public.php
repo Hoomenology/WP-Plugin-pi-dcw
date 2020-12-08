@@ -232,30 +232,30 @@ class Pi_Dcw_Public {
 		 * class.
 		 */
 
-		wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/pi-dcw-public.css', array(), $this->version, 'all' );
+		// wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/pi-dcw-public.css', array(), $this->version, 'all' );
 
-		$pi_dcw_buy_now_bg_color = get_option('pi_dcw_buy_now_bg_color', '#ee6443');
-		$pi_dcw_buy_now_text_color = get_option('pi_dcw_buy_now_text_color', '#ffffff');
+		// $pi_dcw_buy_now_bg_color = get_option('pi_dcw_buy_now_bg_color', '#ee6443');
+		// $pi_dcw_buy_now_text_color = get_option('pi_dcw_buy_now_text_color', '#ffffff');
 
-		$buy_now_button_size = get_option('pisol_dcw_button_size','');
+		// $buy_now_button_size = get_option('pisol_dcw_button_size','');
 
-		$button_size = "";
-		if(!empty($buy_now_button_size)){
-			$button_size = "
-				.pisol_buy_now_button.pisol_single_buy_now{
-					width:{$buy_now_button_size}px !important;
-					max-width:100% !important;
-				}
-			";
-		}
+		// $button_size = "";
+		// if(!empty($buy_now_button_size)){
+		// 	$button_size = "
+		// 		.pisol_buy_now_button.pisol_single_buy_now{
+		// 			width:{$buy_now_button_size}px !important;
+		// 			max-width:100% !important;
+		// 		}
+		// 	";
+		// }
 
-		$css = "
-		.pisol_buy_now_button{
-			color:{$pi_dcw_buy_now_text_color} !important;
-			background-color: {$pi_dcw_buy_now_bg_color} !important;
-		}
-		";
-		wp_add_inline_style($this->plugin_name, $css.$button_size);
+		// $css = "
+		// .pisol_buy_now_button{
+		// 	color:{$pi_dcw_buy_now_text_color} !important;
+		// 	background-color: {$pi_dcw_buy_now_bg_color} !important;
+		// }
+		// ";
+		// wp_add_inline_style($this->plugin_name, $css.$button_size);
 
 
 	}

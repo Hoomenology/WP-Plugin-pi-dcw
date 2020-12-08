@@ -138,8 +138,8 @@ class pisol_quick_view_frontend{
     public function pisol_add_button2($add_to_cart_url){
 
 		global $post;
-        return '<a data-product-id="'.$post->ID.'"class="quick_view button pisol_quick_view_button" >
-        <span>'.$this->pi_dcw_quick_view_text.'</span></a>' . $add_to_cart_url;
+        return '<div class="product-action"><a data-product-id="'.$post->ID.'"class="quick_view button pisol_quick_view_button" >
+        <span>'.$this->pi_dcw_quick_view_text.'</span></a>' . $add_to_cart_url . '</div>';
     }
     
 	public function pisol_add_button(){
