@@ -110,9 +110,6 @@ class pisol_quick_view_frontend{
 			color:'.$this->pi_dcw_quick_view_text_color.';
 		}
 
-		.pisol-quick-view-box .summary h1, .pisol-quick-view-box .summary p{
-			color:'.$this->pi_dcw_quick_view_modal_text_color.';
-		}
 		.mfp-close-btn-in .mfp-close{
 			background-color:'.$this->pi_dcw_quick_view_modal_close_bg_color.';
 			color:'.$this->pi_dcw_quick_view_modal_close_color.';
